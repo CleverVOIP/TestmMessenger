@@ -1,0 +1,12 @@
+hotkey = "F"
+x = 50
+y = 30
+
+-- Code
+activated = false
+registered = false
+wait = false
+stwait = true
+font = drawMgr:CreateFont("critfont","Arial",14,500)
+defaultText = "Critscript: Disabled"
+text = drawMgr:CreateText(x,y,-1,defaultText,font)
